@@ -1,3 +1,27 @@
 .typewritten {
-    font-family: 'Special Elite', cursive;        
+  font-family: "Special Elite", cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+.overlay {
+  width: 100vw;
+  height: 55vw;
+  position: absolute;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  top: -2vw;
+  left: -1vw;
+}
+
+h2 {
+  z-index: 2;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 10vw;
+  top: 30%;
+  left: 11%;
 }
